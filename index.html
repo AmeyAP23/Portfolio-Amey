@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4937f46327.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Screenshot_2024-04-08_203336-removebg-preview.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>FRONT END WEB DEVELOPER</p>
+          <h1>Hi, I'm </h1>
+          <h1 class="autotype"></h1>
+          <h1 class="autotype2"></h1>
+        </div>
+
+        <div>
+          <a class="btnns" href="#contact">My CV</a>  
+          
+          <a class="btnns" href="#portfolio">My Work</a>
+
+
+
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/IMG_1752.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Amey Pendhari here, a front-end developer adept in HTML, CSS, JavaScript, React.js, and Git/GitHub. Specializing in creating dynamic and user-friendly websites, I'm passionate about crafting seamless digital experiences. With a commitment to staying ahead in technology, I bring creativity and innovation to every project. Excited to showcase my portfolio and contribute to cutting-edge developments in web development.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />HTML/CSS/JavaScript <br>React Development</li>
+                <li>
+                  <span>UI/UX Design</span><br />Responsive Design <br>User Experience Optimization
+                </li>
+                <li>
+                  <span>GitHub</span><br />Git & GitHub Expertise <br>
+                  Branching & Merging
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <h1>Fresher</h1>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>March 2022</span> <br>MUMBAI UNIVERSITY<br>D.G. Ruparel College of Arts, Science and Commerce <br><b>CGPA : </b>8.28 out of 10</li>
+                
+                <li><span>March 2018</span><br />HIGHER SECONDARY CERTIFICATE (H.S.C) <br>SVP Junior College of  Commerce and Science (SVPJC) <br><b>Marks : </b>64.76%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Website Development</h2>
+            <p>
+              <b>HTML/CSS/JavaScript</b>: Build interactive and responsive websites using the latest web technologies.
+              <br>
+             <b> React Development</b>: Develop dynamic and efficient web applications with React.js.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              <b>Responsive Design</b>: Create visually appealing designs that work seamlessly across devices.
+              <br>
+              <b>User Experience Optimization</b>: Enhance user satisfaction by improving the usability and accessibility of web applications.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-github"></i>
+            <h2>Github</h2>
+            <p>
+             <b> Git & GitHub Expertise</b>: Manage project versions efficiently using Git and collaborate seamlessly with teams through GitHub.
+              <b>Branching & Merging</b>: Implement effective branching and merging strategies to streamline development workflows.
+              
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Amazon Clone</h3>
+              <p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  
+                </ul>
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>E-commerce</h3>
+              <p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>ReactJS</li>
+                </ul>
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from playstore.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from playstore.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from playstore.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from playstore.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          
+        </div>
+        <a href="/" onclick="fun1()" class="btn" id="seemore">See More</a>
+      </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Amey Pendhari CS-4114  BSc Computer Science (1).pdf" download="" class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="85e52e0d-75d4-4629-a3e1-0d3faa437ffc">
+              <input type="text" id="name" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                id="emaili"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                id="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <!-- <span id="msg"></span> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright <i class="fa-regular fa-copyright"></i> Amey.Made with by
+          <i class="fa-solid fa-heart"></i> Chiku
+        </p>
+      </div>
+    </div>
+
+    
+    
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+    </script> -->
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>
